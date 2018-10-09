@@ -1,0 +1,35 @@
+poem="""
+The day is  {0} and we no longer {1}
+yet we  {0} with no {3}
+looking for the  {2} in the {3}
+in the realm of a  {4} dog with a hope of {5}
+"""
+for i in range (4):
+    fear_rhyme= random.choice (pronouncing.rhymes ("ear"))
+    hear_rhyme= random.choice (pronouncing.rhymes ("hear"))
+    hot_rhyme= random.choice (pronouncing.rhymes ("hot"))
+    glory_rhyme= random.choice (pronouncing.rhymes ("core"))
+    only_rhyme= random.choice (pronouncing.rhymes ("only"))
+    print(poem.format(fear_rhyme,glory_rhyme,only_rhyme,hot_rhyme,glory_rhyme,hot_rhyme))
+    The day is  puppeteer and we no longer score
+yet we  puppeteer with no lot
+looking for the  lonely in the lot
+in the realm of a  score dog with a hope of lot
+
+
+The day is  teare and we no longer longcor
+yet we  teare with no lat
+looking for the  lonely in the lat
+in the realm of a  longcor dog with a hope of lat
+
+
+The day is  weir and we no longer faure
+yet we  weir with no lamott
+looking for the  conely in the lamott
+in the realm of a  faure dog with a hope of lamott
+
+
+The day is  sightseer and we no longer ore
+yet we  sightseer with no pott
+looking for the  lonely in the pott
+in the realm of a  ore dog with a hope of pott
